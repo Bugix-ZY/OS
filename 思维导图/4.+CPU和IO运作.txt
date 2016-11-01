@@ -1,0 +1,11 @@
+CPU和IO运作
+	IO类型
+		synchronous同步
+			
+		asynchronous异步
+			
+	who moves data from\n memory to device buffer?
+		DMA\n Direct Memory Access
+			负责memory和device buffer之间的传输
+			高速IO设备 速度接近memory
+			没有CPU的干涉 每次传一个block然后int一下 而不是每个byte都需要中断
