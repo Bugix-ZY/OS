@@ -22,7 +22,7 @@
 
 #define JOIN        3
 #define BROADCAST   4
-#define LIST		5
+#define LIST	    5
 #define WHISPER	    6
 #define LEAVE       7
 
